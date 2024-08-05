@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const a = 3;
+      const b = 4;
+      const c = 10;
+      const d = 12;
+
+      console.log(b > a);
+      console.log(a > b);
+      console.log(b >= a);
+      console.log(a >= b);
+      console.log(b == b);
+      console.log(b === b);
+      console.log(b > a);
+      console.log(b > a && d > c);
+      console.log(b > a && d < c);
+      console.log(b + a !== d + c);
+
+      //Condition
+
+      let age = 1;
+
+      if (age >= 18) {
+        console.log("You are eligible to vote");
+      } else {
+        console.log("You are not eligible to vote");
+      }
+
+      //   let num = 99;
+      //   if (num % 2 == 0) {
+      //     console.log(num, " tegsh too bnaaa");
+      //   } else {
+      //     console.log(num, " sondgoi too bnaaa");
+      //   }
+
+      let grade = 0;
+
+      if (grade >= 90) {
+        console.log("A");
+      } else if (grade >= 80) {
+        console.log("B");
+      } else if (grade >= 70) {
+        console.log("C");
+      } else if (grade >= 60) {
+        console.log("D");
+      } else {
+        console.log("F");
+      }
+
+      const username = "anuka";
+
+      if (username === "admin") {
+        console.log("Welcome Admin");
+      } else {
+        console.log("Hello ", username);
+      }
+
+      function FizzBuzzGame(num) {
+        if (num % 3 == 0 && num % 5 == 0) {
+          console.log("FizzBuzz");
+        } else if (num % 3 == 0) {
+          console.log("Fizz");
+        } else if (num % 5 == 0) {
+          console.log("Buzz");
+        } else {
+          console.log("NoFizzBuzz");
+        }
+      }
+      FizzBuzzGame(9);
+      FizzBuzzGame(15);
+      FizzBuzzGame(10);
+      FizzBuzzGame();
+
+    </script>
+  </body>
+</html>

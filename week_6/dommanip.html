@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="greeting-button">Click me to say hi</button>
+    <button id="clear">Click me to erase</button>
+    <div id="container"></div>
+
+    <h3>Mocking</h3>
+    <input type="text" id="mock-input"/>
+    <p id="mock-text"></p>
+
+    <h3>Contact-form</h3>
+
+    <form 
+    id="Contact-form"
+    style="
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    "
+    >
+    <label for="name">Name</label>
+    <input type="text" id="name" />
+    <label for="email">Email</label>
+    <input type="email" id="email" />
+
+    <button
+    type="submit"
+    style="
+    margin-top: 20px;
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    " 
+    id="Contact-form-button"
+    >
+    Submit
+</button>
+</form>
+
+<script src="./dommanip.js"></script> 
+</body>
+</html>
